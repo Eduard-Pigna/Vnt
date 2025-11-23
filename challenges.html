@@ -1,0 +1,48 @@
+### 🔹 *challenges.html*
+html
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Provocări CTF</title>
+style.css
+</head>
+<body>
+<header>Provocări CTF</header>
+<div class="container">
+    <h2>Alege o provocare:</h2>
+
+    <!-- Provocare 1 -->
+    <div class="challenge">
+        <h3>Criptografie</h3>
+        <p>Mesaj criptat: <strong>Uifsf jt b tfdvsf gmbh!</strong></p>
+        <p>Hint: Cifrul lui Caesar (+1)</p>
+        <input type="text" id="flag1" placeholder="Introdu flag-ul">
+        <button onclick="checkFlag('flag1','There is a secure flag!')">Trimite</button>
+        <p id="result1"></p>
+    </div>
+
+    <!-- Provocare 2 -->
+    <div class="challenge">
+        <h3>Web Exploitation</h3>
+        <p>Găsește flag-ul ascuns în codul sursă!</p>
+        <!-- Hint: flag-ul este în comentariul HTML -->
+        <!-- FLAG{hidden_in_html} -->
+        <input type="text" id="flag2" placeholder="Introdu flag-ul">
+        <button onclick="checkFlag('flag2','FLAG{hidden_in_html}')">Trimite</button>
+        <p id="result2"></p>
+    </div>
+
+    <!-- Provocare 3 -->
+    <div class="challenge">
+        <h3>Reverse Engineering</h3>
+        <p>Rezolvă puzzle-ul: 2 + 2 * 2 = ? (Introdu răspunsul ca FLAG{număr})</p>
+        <input type="text" id="flag3" placeholder="Introdu flag-ul">
+        <button onclick="checkFlag('flag3','FLAG{6}')">Trimite</button>
+        <p id="result3"></p>
+    </div>
+</div>
+script.js</script>
+</body>
+</html>

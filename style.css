@@ -1,0 +1,10 @@
+### 🔹 *style.css*
+css
+body { font-family: Arial; background: #0d0d0d; color: #f2f2f2; text-align: center; margin: 0; }
+header { background: #1a1a1a; padding: 20px; font-size: 24px; font-weight: bold; }
+.container { margin: 30px auto; max-width: 700px; background: #1a1a1a; padding: 20px; border-radius: 8px; }
+.challenge { background: #262626; padding: 15px; margin: 15px 0; border-radius: 6px; }
+input, button { width: 100%; padding: 10px; margin: 10px 0; border-radius: 4px; border: none; }
+button { background: #ff6600; color: white; font-weight: bold; cursor: pointer; }
+button:hover { background: #e65c00; }
+
